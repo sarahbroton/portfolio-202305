@@ -120,49 +120,58 @@
 
 /***************WORK EXPERIENCE SECTION*********************/  
 
-.parent {
-  border: 1px solid black; 
-  margin: 1rem; 
-  padding: 2 rem 2 rem; 
-  display: flex;
-  justify-content: flex-end;
- 
+* {
+  box-sizing: border-box; 
+  margin: 0;
+  padding: 0; 
 }
 
-.child {
-  border: 1px solid black; 
-  display: inline-block; 
-  padding: 10px;
-  min-width: 50%; 
-  flex-direction: column; 
-  justify-content: space-evenly; 
-  flex-wrap: wrap;
+section {
+  font-family: Ariel, Helvetics, sans-serif; 
+}
 
+.flex-container {
+  height: 800px; 
+  display: flex; 
+  background-color: lightslategrey; 
+  justify-content: flex-end; 
+  justify-content: space-between;
+  align-items: center; 
+  flex-wrap: wrap; 
 }
-.child-1 {
-  background-color: #F2A74B;
-  min-width: 100%; 
+
+.item {
+  height: 100px; 
+  background:var(--top-color); 
+  color: solid black;  
+  margin: 10px; 
+  border: 1px solid black; 
+  display: flex; 
+  justify-content: left; 
 }
-.child-2 {
-  background-color: #F2C84B;
-  min-width: 50%; 
-  justify-content: flex-end;
+
+.item:nth-of-type(1) {
+  flex-basis: 100%;
+  flex-direction: row;
+  
 }
-.child-3 {
-  background-color: #54ACBF;
-  min-width: 50%; 
-  justify-content: flex-end;
+
+.item.item:nth-of-type(2) {
+  flex-basis: 50%;  
+  flex: 1 1 100px; 
 }
-.child-4 {
-  background-color: #3B668C;
-  min-width: 50%; 
-  justify-content: flex-end;
+
+.item.item:nth-of-type(3) {
+  flex-basis: 50%; 
+  flex: 1 1 100px; 
 }
-.child-5 {
-  background-color: #8C1127;
-  min-width: 50%; 
-  justify-content: flex-end;
+
+.item.item:nth-of-type(4), .item.item:nth-of-type(5) {
+  flex-basis: 50%;
+  flex: 1 1 100px; 
+  
 }
+
 
 
 
