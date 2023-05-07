@@ -122,9 +122,6 @@
     margin-left: 20px; 
   }
 
-  
-
-
 /***************WORK EXPERIENCE SECTION*********************/  
 
 .experience-boxes {
@@ -137,6 +134,16 @@
     align-items: flex-start;
        
 }
+
+.experience-boxes div {
+    background-color: var(--background-color);
+    margin: 2% auto; 
+    flex-basis: 85%;
+    text-align: left; 
+    border-left: solid orange;
+
+}
+
 
 .workbox-main {
     border-style: solid;
@@ -163,6 +170,10 @@
     border-width: 1px;  
     margin-bottom: 20px;
     background-color: tan;
+    display: block; 
+    margin-top: 10 px; 
+    margin-bottom: 10 px; 
+    margin-left: 10px;
     
 }
 
