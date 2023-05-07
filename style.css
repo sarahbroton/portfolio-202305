@@ -101,19 +101,44 @@
   }
 
 
-/***************WORK EXPERIENCE SECTION*********************/
-   .work-container {
-    display: flex; 
-    background-color: var(--background-color);
+/***************WORK EXPERIENCE SECTION*********************/  
 
+.experience-boxes {
+    flex: 4; 
+    background-color: var(--background-color); 
+    padding: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: flex-start;
+}
+
+.workbox-main {
+    border-style: solid;
+    border-width: 5px;
+    flex: 100%;
+    box-shadow: 10px 10px 5px #aaaaaa;
+    margin: 20px;
+
+    }
+
+.workbox-small {
+    border-style: solid;
+    border-width: 5px;
+    flex: 0 0 300px;
+    box-shadow: 10px 10px 5px #aaaaaa;
+    margin: 20px;
+}
+
+.workbox-main p, .workbox-main {
+    text-align: left;
+}
+
+.card img {
+    width: 100%;
   }
-
-  .work-container >div {
-    background-color: var(--background-color);
-  }
-
   
-  /*FOOTER****************************************************/
+/*FOOTER****************************************************/
   footer {
     width: 100%;
     bottom: 0;
