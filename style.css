@@ -120,68 +120,50 @@
 
 /***************WORK EXPERIENCE SECTION*********************/  
 
-
-/*top experience box only, width of screen*/
-.experience-boxes {
-    flex: 100%; 
-    background-color: var(--background-color); 
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    align-items: flex-start;         
+.parent {
+  border: 1px solid black; 
+  margin: 1rem; 
+  padding: 2 rem 2 rem; 
+  display: flex;
+  justify-content: flex-end;
+ 
 }
 
-/*top experience box only, refactor+first assign+padding!!!! box only*/
-.experience-boxes div {
-    background-color: var(--background-color);
-    margin: 2% auto; 
-    flex-basis: 85%;
-    text-align: left; 
-    border-left: solid orange;
-    margin-left: 10px;
-    
+.child {
+  border: 1px solid black; 
+  display: inline-block; 
+  padding: 10px;
+  min-width: 50%; 
+  flex-direction: column; 
+  justify-content: space-evenly; 
+  flex-wrap: wrap;
 
 }
-
-/*top exp box only, refactor+first assign  NO PADDING box only*/
-.workbox-main {
-    border-style: solid;
-    border-width: 5px;
-    flex: 100%;
-    box-shadow: 10px 10px 5px #aaaaaa;
-    margin: 20px;
-    }
-
-/*other exp boxes, NO PADDING, box only*/
-.workbox-small {
-    border-style: solid;
-    border-width: 5px;
-    flex: 0 0 300px;
-    box-shadow: 10px 10px 5px #aaaaaa;
-    margin: 20px;
-    border-radius: 5px;
-    flex-flow: column wrap;
+.child-1 {
+  background-color: #F2A74B;
+  min-width: 100%; 
+}
+.child-2 {
+  background-color: #F2C84B;
+  min-width: 50%; 
+  justify-content: flex-end;
+}
+.child-3 {
+  background-color: #54ACBF;
+  min-width: 50%; 
+  justify-content: flex-end;
+}
+.child-4 {
+  background-color: #3B668C;
+  min-width: 50%; 
+  justify-content: flex-end;
+}
+.child-5 {
+  background-color: #8C1127;
+  min-width: 50%; 
+  justify-content: flex-end;
 }
 
-/*exp box main + small = smaller text box, inside larger exp box*/
-.workbox-main p, .workbox-small p {
-    text-align: left;
-    border-style: solid; 
-    border-width: 1px;  
-    margin-bottom: 20px;
-    background-color: tan;
-    display: block; 
-    margin-top: 10 px; 
-    margin-bottom: 10 px; 
-    margin-left: 10px;
-  
-}
-
-.experience-boxes img {
-    width: 100%;
-   
-  }
-  
 
 
 /*FOOTER****************************************************/
@@ -193,6 +175,8 @@
     background: #13293d;
     color: #fff;
     margin-top: auto;
+
+}
 
 /*ADDITIONAL INFO*********************************************/  
   
