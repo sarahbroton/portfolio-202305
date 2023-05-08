@@ -122,10 +122,8 @@
 
 #work {
   font-family: Ariel, Helvetics, sans-serif; 
-  display: flex; 
-  flex: wrap;
-  align-self: flex-start;
-   
+  display: block; 
+  
 
 }
 
