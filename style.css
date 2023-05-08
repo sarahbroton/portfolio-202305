@@ -120,18 +120,24 @@
 
 /***************WORK EXPERIENCE SECTION*********************/  
 
-* {
-  box-sizing: border-box; 
-  margin: 0;
-  padding: 0; 
+#work {
+  font-family: Ariel, Helvetics, sans-serif; 
+  display: flex; 
+  flex: wrap;
+  align-self: flex-start;
+   
+
 }
 
-section {
-  font-family: Ariel, Helvetics, sans-serif; 
+#work h2 {
+  background-color: var(--background-color);
+  margin: 0%; 
+  /* flex-basis: 85%  */
+  text-align: left; 
+  border-right: 2px solid orange; 
 }
 
 .flex-container {
-  height: 800px; 
   display: flex; 
   background-color: lightslategrey; 
   justify-content: flex-end; 
@@ -157,18 +163,15 @@ section {
 }
 
 .item.item:nth-of-type(2) {
-  flex-basis: 50%;  
-  flex: 1 1 100px; 
+  flex: 1 2 35%; 
 }
 
 .item.item:nth-of-type(3) {
-  flex-basis: 50%; 
-  flex: 1 1 100px; 
+   flex: 1 2 35%; 
 }
 
 .item.item:nth-of-type(4), .item.item:nth-of-type(5) {
-  flex-basis: 50%;
-  flex: 1 1 100px; 
+  flex: 1 2 35%; 
   
 }
 
