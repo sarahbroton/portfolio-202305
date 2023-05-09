@@ -91,8 +91,110 @@
  
   }
 
-  /***********ABOUT ME SECTION********************************/
-  .about-me-container {
+/************new MAIN SECTION****************/
+
+body {
+  background-color: var(--background-color);
+  padding: 10px;
+  margin: 0;
+}
+
+.parent1 {
+  background-color: green;
+  margin: 2px; 
+  padding: 20px; 
+  height: auto;
+  display: flex; 
+  justify-content: space-around;
+  align-content: flex-start; 
+   
+}
+
+.parent2 {
+  background-color: red;
+  margin: 2px; 
+  padding: 20px; 
+  height: auto;
+  display: flex; 
+  justify-content: space-around;
+  align-content: flex-start; 
+}
+
+.parent3 {
+  background-color: purple;
+  margin: 10px; 
+  padding: 30px; 
+  height: auto;
+  display: flex; 
+  justify-content: space-around;
+  align-content: flex-start; 
+}
+
+.P1div1 {
+  background-color: aqua;
+  margin: 5px; 
+  width: 22%; 
+}  
+
+
+.P1div2 {
+  background-color: whitesmoke;
+  margin: 5px; 
+  width: 74%; 
+  justify-content: space-between; 
+  align-content: flex-end; 
+}  
+
+.P2div1{
+ display: flex; 
+ background-color: greenyellow; 
+ margin: 5px; 
+ width: 150px; 
+ font-size: 30px; 
+ width: 75%; 
+ align-items: center; 
+ flex-direction: column;
+
+}
+
+.P2div2 {
+  display: flex; 
+  background-color:beige;
+  margin: 5px; 
+  width: 300px\; 
+  font-size: 30px; 
+  width 75%; 
+  align-items: center; 
+  flex-direction: row; 
+
+}
+
+.P2div3 {
+  background-color: goldenrod; 
+  margin: 5px; 
+  width: 25%; 
+
+  }
+
+.P2div4 {
+  background-color: blue;
+  margin: 5px; 
+  width: 25%; 
+
+}
+
+.P3div1{
+  background-color: yellow;
+  margin: 5px; 
+  width: 25%; 
+}
+
+
+  
+
+
+  /****previous  ABOUT ME SECTION*/
+  /* .about-me-container {
     display: flex;
     background-color: var(--background-color);
     margin: 2% auto; 
@@ -116,9 +218,9 @@
   .about-me-container h2 {
     text-align: right;
     margin-left: 20px; 
-  }
+  } */
 
-/***************WORK EXPERIENCE SECTION*********************/  
+/* *previous work EXPERIENCE SECTION********************  
 
 #work {
   font-family: Ariel, Helvetics, sans-serif; 
@@ -131,7 +233,7 @@
   background-color: var(--background-color);
   margin: 0%; 
   /* flex-basis: 85%  */
-  text-align: left; 
+  /* text-align: left; 
   border-right: 2px solid orange; 
 }
 
@@ -172,7 +274,7 @@
   flex: 1 2 35%; 
   
 }
-
+ */
 
 
 
