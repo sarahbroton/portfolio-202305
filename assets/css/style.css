@@ -133,7 +133,7 @@ body {
 
 
 
-.P2div2 {
+.P2div2, .P2div3, .P2div4 {
   display: flex;
   background-color: beige;
   margin: 5px;
@@ -142,13 +142,10 @@ body {
   width: 75%;
   align-items: center;
   flex-direction: row;
+  border: 1px black;
 
 }
 
-.P2divright {
-  width: 75%;
-
-}
 
 .P2div3 {
   background-color: goldenrod;
