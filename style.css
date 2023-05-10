@@ -126,6 +126,7 @@ body {
   padding: 20px; 
   height: auto;
   display: flex; 
+
   justify-content: space-around;
   align-content: flex-start; 
 }
@@ -200,12 +201,25 @@ body {
   
 }
 
-.P3div1 ul {
-  display: inline; 
-}
+/* .P3div1 ul {
+  display: flex; 
+} */
   
+/*CONTACT SECTION: Data, info, links*/
+ul {
+  display: flex;
+  justify-content: space-around;
+  cursor: pointer;
+  
+}
+
+.linkedin:hover::after {
+  content: attr(data-tooltip); 
+}
 
   
+
+
 
 
   /****previous  ABOUT ME SECTION*/
