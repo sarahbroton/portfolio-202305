@@ -1,108 +1,104 @@
 /*PORTFOLIO*/
-:root{
-    --top-color: rgb(181, 187, 195); 
-    --background-color:black; 
-    --text-color: black;   
-  }
+:root {
+  --top-color: rgb(212, 214, 217);
+  --background-color: black;
+  --text-color: black;
+}
 
-  body {
-    font-family: "Ink Free", Tahoma, sans-serif;
-    border-style: ridge
-  }
+body {
+  font-family: "Ink Free", Tahoma, sans-serif;
+  border-style: ridge
+}
 
-  main {
-    font-size: 18px;
-    justify-content: left;
-    flex-direction: column;
-    min-height: 200px;
-    justify-content: flex-start;
-  }
-  
-  /*Title and navbar*/
-  h1 {
-    font-size: 60px;
-    text-align: justify;
-    width: 100%; 
-    height: 60px;
-   
+main {
+  font-size: 18px;
+  justify-content: left;
+  flex-direction: column;
+  min-height: 200px;
+  justify-content: flex-start;
+}
 
-  }
+/********************Title and navbar************************/
+h1 {
+  font-size: 60px;
+  text-align: justify;
+  width: 100%;
+  height: 60px;
+}
 
-  /*about me & experience sections title*/
-  /* h2 {
+/*about me & experience sections title*/
+/* h2 {
     font-size: 1.5rem;
     margin: 2% 0;
     text-align: right;
     margin-left: 20px;
   } */
-  
-  h4 {
-    text-decoration: underline;
-  }
-  /*line between header/title & nav bar?*/
-  header {
-    padding: 40px;
-    justify-content: flex-start;
-    background-color: var(--top-color);
-    
-     
-  }
-/* Container holding the image and the text */
+
+h4 {
+  text-decoration: underline;
+}
+
+/*line between header/title & nav bar?*/
+header {
+  padding: 40px;
+  justify-content: flex-start;
+  background-color: var(--top-color);
+}
+
+/******Container holding the image and overlay text*************/
 .container {
   position: relative;
   text-align: center;
-  color: white; 
- 
+  color: white;
+
 }
 
-
-/* Top right text -overlay on picture */
+/* Top right text -overlay on image */
 .top-right {
   position: absolute;
   top: 8px;
   right: 16px;
 
 }
-
+/*Bottom right text - overlay on image*/
 .bottom-right {
-    position: absolute;
-    bottom: 8px;
-    right: 16px;
-  }
+  position: absolute;
+  bottom: 8px;
+  right: 16px;
+}
 
-  
-  /* nav bar*/
-  nav {
-    display: flexbox;
-    font-size: 20px; 
-    text-align: right;
-    justify-content: ;
 
-  }
-  nav a {
-    color: white;
-    font-weight:bolder;
-    font-shadow: 2px 2px black; 
-    padding: 20px;
-    border-radius: 30px;
-  }
- 
-   
-  /*HIGHLIGHT EFFECT WHEN NAV BAR SELECTION IS HOVER*******/
-  nav a:hover {
-    color: black; 
-    background-color: rgb(250, 250, 140); 
+/* nav bar detail*/
+nav {
+  display: flexbox;
+  font-size: 20px;
+  text-align: right;
+  justify-content: ;
+}
 
-  }
-  
-  /*DIVISION BETWEEN TITLE/NAVBAR --AND-- MAIN CONTENT*******/
-  main {
-    display: flex;
-    flex-wrap: wrap;
- 
-  }
+nav a {
+  color: white;
+  font-weight: bolder;
+  font-shadow: 2px 2px black;
+  padding: 20px;
+  border-radius: 30px;
+}
 
-/************new MAIN SECTION****************/
+
+/*HIGHLIGHT EFFECT WHEN NAV BAR SELECTION IS HOVER*******/
+nav a:hover {
+  color: black;
+  background-color: rgb(250, 250, 140);
+}
+
+/*DIVISION BETWEEN TITLE/NAVBAR --AND-- MAIN CONTENT*******/
+/* main {
+  display: flex;
+  flex-wrap: wrap;
+
+} */
+
+/****************************MAIN SECTION********************************/
 
 body {
   background-color: var(--background-color);
@@ -111,130 +107,122 @@ body {
 }
 
 .parent1 {
-  background-color: green;
-  margin: 2px; 
-  padding: 20px; 
+  background-color: var(--top-color); 
+  margin: 2px;
+  padding: 20px;
   height: auto;
-  display: flex; 
+  display: flex;
   justify-content: space-around;
-  align-content: flex-start; 
-   
+  align-content: flex-start;
+
 }
 
 .parent2 {
   background-color: red;
-  margin: 2px; 
-  padding: 20px; 
+  margin: 2px;
+  padding: 20px;
   height: auto;
-  display: flex; 
+  display: flex;
   justify-content: space-around;
-  align-content: flex-start; 
+  align-content: flex-start;
 }
 
 .parent3 {
-  background-color: purple;
-  margin: 2px; 
-  padding: 20px; 
+  background-color: var(--top-color);
+  margin: 2px;
+  padding: 20px;
   height: auto;
-  display: flex; 
-
+  display: flex;
   justify-content: space-around;
-  align-content: flex-start; 
+  align-content: flex-start;
 }
 
-.P1div1 {
-  background-color: aqua;
-  margin: 5px; 
-  width: 22%; 
-}  
+.P1div1, .P2div1, .P3div1 {
+  margin: 2px;
+  padding-right: 5px; 
+  width: 22%;
+  text-align: right;
+  font-size: 40px;
+  background: border-box; 
+  border-right: solid black;  
+
+}
 
 
 .P1div2 {
-  background-color: whitesmoke;
-  margin: 5px; 
-  width: 74%; 
-  justify-content: space-between; 
-  align-content: flex-end; 
-}  
-
-.P2div1{
- display: flex; 
- background-color: greenyellow; 
- margin: 5px; 
- font-size: 30px; 
- width: 25%; 
- align-items: center; 
- flex-direction: column;
-
+  background-color: var(--top-color);
+  margin: 5px;
+  width: 74%;
+  justify-content: space-between;
+  align-content: flex-end;
+  font-weight:600; 
 }
 
 
+
 .P2div2 {
-  display: flex; 
-  background-color:beige;
-  margin: 5px; 
-  width: 300px; 
-  font-size: 30px; 
-  width: 75%; 
-  align-items: center; 
-  flex-direction: row; 
+  display: flex;
+  background-color: beige;
+  margin: 5px;
+  width: 300px;
+  font-size: 30px;
+  width: 75%;
+  align-items: center;
+  flex-direction: row;
 
 }
 
 .P2divright {
-  width: 75%; 
-  
+  width: 75%;
+
 }
 
 .P2div3 {
-  background-color: goldenrod; 
-  margin: 5px; 
-  width: 25%; 
+  background-color: goldenrod;
+  margin: 5px;
+  width: 25%;
 
-  }
+}
 
 .P2div4 {
   background-color: blue;
-  margin: 5px; 
-  width: 25%; 
+  margin: 5px;
+  width: 25%;
 
 }
 
-.P3div1{
-  background-color: yellow;
-  margin: 5px; 
-  width: 20%; 
-}
 
 .P3div2 {
-  background-color: pink;
-  width: 75%; 
-  
+  font-weight: 400; 
+  padding: 18px; 
+  width: 75%;
+  font-size: 25px; 
+
 }
 
 /* .P3div1 ul {
   display: flex; 
 } */
-  
+
 /*CONTACT SECTION: Data, info, links*/
 ul {
   display: flex;
   justify-content: space-around;
   cursor: pointer;
-  
+
 }
 
 .linkedin:hover::after {
-  content: attr(data-tooltip); 
+  content: attr(data-tooltip);
 }
 
-  
 
 
 
 
-  /****previous  ABOUT ME SECTION*/
-  /* .about-me-container {
+
+/****previous  ABOUT ME SECTION*/
+/* .about-me-container {
     display: flex;
     background-color: var(--background-color);
     margin: 2% auto; 
@@ -273,7 +261,7 @@ ul {
   background-color: var(--background-color);
   margin: 0%; 
   /* flex-basis: 85%  */
-  /* text-align: left; 
+/* text-align: left; 
   border-right: 2px solid orange; 
 }
 
@@ -319,23 +307,23 @@ ul {
 
 
 /*FOOTER****************************************************/
-  footer {
-    width: 100%;
-    bottom: 0;
-    padding: 20px;
-    text-align: center;
-    background: #13293d;
-    color: #fff;
-    margin-top: auto;
+footer {
+  width: 100%;
+  bottom: 0;
+  padding: 20px;
+  text-align: center;
+  background: #13293d;
+  color: #fff;
+  margin-top: auto;
 
 }
 
-/*ADDITIONAL INFO*********************************************/  
-  
-  @media screen and (max-width: 768px) {
-    main,
-    nav {
-      flex-direction: column;
-    }
+/*ADDITIONAL INFO*********************************************/
+
+@media screen and (max-width: 768px) {
+
+  main,
+  nav {
+    flex-direction: column;
   }
-  
+}
