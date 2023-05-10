@@ -1,13 +1,13 @@
-/*color scheme*/
+/*PORTFOLIO*/
 :root{
-    --top-color: rgb(182, 207, 247); 
-    --background-color: rgb(241, 241, 218);
-    --text-color: black;
-      
+    --top-color: rgb(181, 187, 195); 
+    --background-color:black; 
+    --text-color: black;   
   }
 
   body {
     font-family: "Ink Free", Tahoma, sans-serif;
+    border-style: ridge
   }
 
   main {
@@ -16,25 +16,25 @@
     flex-direction: column;
     min-height: 200px;
     justify-content: flex-start;
-    
   }
   
-  /*header or title*/
+  /*Title and navbar*/
   h1 {
-    font-size: 40px;
+    font-size: 60px;
     text-align: justify;
     width: 100%; 
-    height: 60px; 
-          
+    height: 60px;
+   
+
   }
-  
+
   /*about me & experience sections title*/
-  h2 {
+  /* h2 {
     font-size: 1.5rem;
     margin: 2% 0;
     text-align: right;
     margin-left: 20px;
-  }
+  } */
   
   h4 {
     text-decoration: underline;
@@ -47,56 +47,44 @@
     
      
   }
+/* Container holding the image and the text */
+.container {
+  position: relative;
+  text-align: center;
+ 
+}
+
+
+/* Top right text -overlay on picture */
+.top-right {
+  position: absolute;
+  top: 8px;
+  right: 16px;
   
-  /*nav bar*/
+
+}
+  
+  /* nav bar*/
   nav {
     display: flexbox;
-    background-color: rgb(244, 244, 92);
+    font-size: 20px; 
     text-align: right;
+    justify-content: ;
 
   }
-
-  /*nav bar - ROW 1*/
-    .nav-row-1 {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    width: 100%;
-    justify-content: flex-end;
-    align-content: space-around;
-    
-    
-
-    }
-
-    /*nav bar - Row 2*/
-   .nav-row-2 {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    width: 100%;
-    justify-content: flex-end;
-    
-}
-
-.headerpic {
-  display: flex;
-  width: 100%; 
-  height: 100px; 
-  opacity: 0.5;  
-}
-  
-  /*boxes around each nav bar selection**********************/
   nav a {
-    color: black;
+    color: white;
+    font-weight:bolder;
+    font-shadow: 2px 2px black; 
     padding: 20px;
-    text-decoration: none;
     border-radius: 30px;
   }
-  
+ 
+   
   /*HIGHLIGHT EFFECT WHEN NAV BAR SELECTION IS HOVER*******/
   nav a:hover {
-    background-color: rgb(245, 217, 245)
+    color: black; 
+    background-color: rgb(250, 250, 140); 
 
   }
   
