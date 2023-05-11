@@ -102,17 +102,23 @@ body {
 
 }
 
-.parent2 {
-  background-color: red;
+/* .projects-container {
+display: flex; 
+flex-wrap: wrap; 
+
+
+} */
+
+  /* background-color: red;
   margin: 2px;
   padding: 20px;
   height: auto;
   display: flex;
   justify-content: space-around;
-  align-content: flex-start;
-}
+  align-content: flex-start; */
+/* } */
 
-.P1div1, .P2div1, .P3div1 {
+.P1div1, .P3div1 {
   margin: 2px;
   padding-right: 5px; 
   width: 22%;
@@ -130,6 +136,26 @@ body {
   align-content: flex-end;
   font-weight:600; 
 }
+
+/* .work {
+  display: flex; 
+}
+
+.project {
+  max-width: 150px; 
+  max-height: 150px; 
+}
+
+.projects-container {
+  display:flex; 
+  flex-wrap:wrap; 
+  background-color: var(--top-color); 
+  margin: 2px;
+  padding: 20px;
+  height: auto;
+  justify-content: space-around;
+  align-content: flex-start;
+} */
 
 
 
@@ -159,7 +185,7 @@ body {
   margin: 5px;
   width: 25%;
 
-}
+} 
 
 /******************CONTACT SECTION*********************************/
 .P3div2 {
@@ -177,9 +203,16 @@ ul {
 
 }
 
-/* .linkedin:hover::after {
+.linkedin:hover::after {
   content: attr(data-tooltip);
-} */
+}
+
+.linkedin:hover {
+  color: black;
+  background-color: rgb(250, 250, 140);
+  border-radius: 30px;
+}
+
 
 /*FOOTER****************************************************/
 footer {
