@@ -7,8 +7,8 @@
 
 body {
   font-family: "Ink Free", Tahoma, sans-serif;
-  border-style: ridge
-}
+  border-style: ridge;
+  }
 
 main {
   font-size: 18px;
@@ -35,8 +35,7 @@ header {
   padding: 40px;
   justify-content: flex-start;
   background-color: var(--top-color);
-  outline: 4px solid rgb(37, 99, 37);
-  background rgba (1, 151, 0, 0.1);
+ 
 }
 
 /******Container holding the image and overlay text*************/
@@ -118,7 +117,7 @@ flex-wrap: wrap;
   align-content: flex-start; */
 /* } */
 
-.P1div1, .P3div1 {
+.P1div1, .P2div1, .P3div1 {
   margin: 2px;
   padding-right: 5px; 
   width: 22%;
@@ -128,7 +127,7 @@ flex-wrap: wrap;
   border-right: solid black;  
 }
 
-.P1div2 {
+.P1div2, .P2div2 {
   background-color: var(--top-color);
   margin: 5px;
   width: 74%;
@@ -136,6 +135,18 @@ flex-wrap: wrap;
   align-content: flex-end;
   font-weight:600; 
 }
+
+.largeimage {
+  width: 100%; 
+  
+}
+
+
+/* .P2div2 {
+  width: 100%; 
+  height: 50%; 
+  object-fit: cover; */
+/* } */
 
 /* .work {
   display: flex; 
@@ -159,7 +170,7 @@ flex-wrap: wrap;
 
 
 
-.P2div2, .P2div3, .P2div4 {
+/* .P2div2, .P2div3, .P2div4 {
   display: flex;
   background-color: beige;
   margin: 5px;
@@ -185,7 +196,7 @@ flex-wrap: wrap;
   margin: 5px;
   width: 25%;
 
-} 
+}  */
 
 /******************CONTACT SECTION*********************************/
 .P3div2 {
