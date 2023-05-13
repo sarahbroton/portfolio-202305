@@ -92,6 +92,7 @@ This includes:
 - With additional research learned from WDS: Web Dev Simplified (https://www.youtube.com/@WebDevSimplified)
 - Header photo credit: https://www.pexels.com/photo/green-trees-with-yellow-sunlight-11435/ 
 - small images photo credit: https://www.pexels.com/photo/close-view-of-green-grass-582486/
+- small images photo credit: https://wallpaperaccess.com/star-space
 - Other sources may apply, see GitHub "Portfolio-2020305" under resolved issues
 
 ## License
